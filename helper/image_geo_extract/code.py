@@ -32,4 +32,4 @@ folder_name="images"
 for images in os.listdir(folder_name):
     if(images.endswith(".jpg")):
         with open('geo.csv','a') as c_obj:
-                writer(c_obj).writerow([pathlib.Path(images),image_coords(f"images/{pathlib.Path(images)}")])
+                writer(c_obj).writerow([pathlib.Path(images),image_coords(f"images/{pathlib.Path(images)}")])#end of the code
